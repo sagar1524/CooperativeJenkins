@@ -10,7 +10,7 @@ public class WelcomeServiceTest {
 	public void objectTest() {
 		WelcomeService service = new WelcomeService();
 		
-		assertEquals(service, service);
+		assertEquals(service, new Object());
 	}
 	
 
